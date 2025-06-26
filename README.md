@@ -72,7 +72,9 @@ You will be greeted with an interactive prompt.
 
 ## Sample Usage
 
-The following screenshot demonstrates building an order book, executing a trade that crosses the spread, and viewing the final state of the book.
+The following GIF and screenshot demonstrate building an order book, executing a trade that crosses the spread, and viewing the final state of the book.
+
+![Demo GIF](demo.gif)
 
 ![Sample Output](output.png)
 
