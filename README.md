@@ -4,7 +4,6 @@ This project is a high-performance, C++ implementation of a limit order book (LO
 
 The engine processes market orders (BUY/SELL) and maintains the book according to strict **Price-Time Priority**, executing trades when the spread is crossed.
 
-
 *(Suggestion: Use a tool like [ScreenToGif](https://www.screentogif.com/) or Kap to record a short demo of you using the command line, and upload it to a site like Imgur to embed here.)*
 
 ## Key Features
@@ -70,6 +69,12 @@ You will be greeted with an interactive prompt.
 - `CANCEL <order_id>` (e.g., `CANCEL 1`)
 - `VIEW` (Displays the current order book)
 - `EXIT`
+
+## Sample Usage
+
+The following screenshot demonstrates building an order book, executing a trade that crosses the spread, and viewing the final state of the book.
+
+![Sample Output](output.png)
 
 ---
 *This project was developed as a deep dive into low-latency systems, data structure optimization, and modern C++ design patterns relevant to the quantitative finance industry.*
