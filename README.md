@@ -4,8 +4,6 @@ This project is a high-performance, C++ implementation of a limit order book (LO
 
 The engine processes market orders (BUY/SELL) and maintains the book according to strict **Price-Time Priority**, executing trades when the spread is crossed.
 
-*(Suggestion: Use a tool like [ScreenToGif](https://www.screentogif.com/) or Kap to record a short demo of you using the command line, and upload it to a site like Imgur to embed here.)*
-
 ## Key Features
 
 - **Price-Time Priority Matching:** Orders are correctly prioritized first by price, then by time of arrival.
